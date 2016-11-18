@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Talha Shoaib"
 email: "talhashoaib27@gmail.com"
-description: "BS in Software Engineering. 2+ years industry experience of building web apps. Worked alone and in teams Always interested in hearing from former colleagues, managers, or just interesting creative folk, so feel free to contact me if you’d like to connect."
+description: "BS in Software Engineering. 2+ years industry experience of building web apps. Worked alone and in teams Always interested in hearing from former colleagues, managers, or just interesting creative folk, so feel free to contact me if you’d like to connect. I'm a freelance developer and regarding refund policy: It is not available at the moment."
 baseurl: "https://pk.linkedin.com/in/talhashoaib27" # the subpath of your site, e.g. /blog
 url: "https://pk.linkedin.com/in/talhashoaib27" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: talhashoaib27
