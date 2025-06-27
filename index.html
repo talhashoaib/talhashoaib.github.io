@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talha Shoaib - Ruby on Rails Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Talha Shoaib</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Talha Shoaib</span></h1>
+                <h2 class="hero-subtitle">Ruby on Rails Engineer</h2>
+                <p class="hero-description">A passionate coder, fantastic troubleshooter, and enthusiastic Ruby on Rails engineer with expertise in building scalable web applications.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="https://www.linkedin.com/in/talhashoaib27/" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre class="code-content">
+<span class="keyword">class</span> <span class="class">Developer</span>
+  <span class="keyword">def</span> <span class="method">initialize</span>
+    <span class="variable">@name</span> = <span class="string">"Talha Shoaib"</span>
+    <span class="variable">@role</span> = <span class="string">"Ruby on Rails Engineer"</span>
+    <span class="variable">@location</span> = <span class="string">"Netherlands"</span>
+  <span class="keyword">end</span>
+
+  <span class="keyword">def</span> <span class="method">skills</span>
+    [<span class="string">"Ruby on Rails"</span>, <span class="string">"JavaScript"</span>, 
+     <span class="string">"HTML5/CSS3"</span>, <span class="string">"SQL"</span>, <span class="string">"jQuery"</span>]
+  <span class="keyword">end</span>
+<span class="keyword">end</span></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a dedicated Ruby on Rails engineer with a strong background in full-stack web development. With years of experience building scalable web applications, I specialize in creating robust, user-friendly solutions that drive business value.</p>
+                    <p>My journey in software development began with a BS in Software Engineering from the University of the Punjab. Since then, I've worked on diverse projects across travel, education, and service domains, always focusing on clean code and exceptional user experiences.</p>
+                    <p>I'm passionate about problem-solving and continuously learning new technologies to stay at the forefront of web development.</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Education</h4>
+                            <p>BS Software Engineering</p>
+                            <p class="text-muted">University of the Punjab (2010-2014)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Certification</h4>
+                            <p>Ruby and SQL Certified</p>
+                            <p class="text-muted">TestDome (November 2021)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-language"></i>
+                        <div>
+                            <h4>Languages</h4>
+                            <p>English (Professional)</p>
+                            <p>Urdu (Native)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Backend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Ruby on Rails</span>
+                        <span class="skill-tag">Ruby</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">MVC Architecture</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">jQuery</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Other Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Team Collaboration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>Odido Nederland</h4>
+                        <p class="timeline-date">Current Position</p>
+                        <p>Working on innovative solutions in the telecommunications sector, developing and maintaining Ruby on Rails applications.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Ruby on Rails Developer</h3>
+                        <h4>Previous Roles</h4>
+                        <p>Extensive experience working with multiple tech companies, developing web applications, implementing new features, and optimizing performance.</p>
+                        <ul>
+                            <li>Built scalable web applications using Ruby on Rails</li>
+                            <li>Implemented RESTful APIs for mobile and web clients</li>
+                            <li>Collaborated with cross-functional teams</li>
+                            <li>Mentored junior developers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Comencia</h3>
+                    <p>SAAS travel information platform built with Ruby on Rails. Developed features for managing travel data, user authentication, and real-time updates.</p>
+                    <div class="project-tech">
+                        <span>Ruby on Rails</span>
+                        <span>PostgreSQL</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Intellirent</h3>
+                    <p>Comprehensive rental application system. Implemented property management features, booking system, and payment integration.</p>
+                    <div class="project-tech">
+                        <span>Ruby on Rails</span>
+                        <span>jQuery</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Web & Mobile Applications</h3>
+                    <p>Developed multiple web and mobile applications across travel, education, and service domains with focus on user experience and performance.</p>
+                    <div class="project-tech">
+                        <span>Ruby on Rails</span>
+                        <span>API Development</span>
+                        <span>HTML5/CSS3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in hearing about new opportunities and challenging projects. Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/talhashoaib27/" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:talhashoaib27@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Talha Shoaib. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
